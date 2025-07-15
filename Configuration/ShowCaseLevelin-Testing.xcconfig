@@ -1,0 +1,13 @@
+//
+//  ShowCaseLevelin-Testing.xcconfig
+//  ShowcaseLevelin
+//
+//  Created by @algoreadme on 13/07/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_BUNDLE_IDENTIFIER = com.levelin.dhikadityre.SLTesting
+APP_NAME = SL-Testing
+FLAVOR = TESTING
