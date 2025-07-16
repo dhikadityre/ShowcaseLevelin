@@ -22,6 +22,35 @@
 - Xcode 13+
 - Swift Package Manager (SPM)
 
+## 🛠 Architecture
+
+```
+AppMain/
+├── AppDIContainer/
+├── AppConfig/
+├── Features/
+│   ├── FeatureHome/
+│   ├── FeaturePromo/
+│   └── FeatureAbout/ (multi-repo, modular SDK)
+├── SharedUI/
+├── SharedDomain/
+├── CoreModules/ (multi-repo SDK)
+│   ├── CoreNetwork/
+│   ├── CoreSecurity/
+│   ├── CoreAnalytics/
+│   ├── CoreEnvironment/
+│   ├── CoreRemoteConfig/
+│   ├── CoreError/
+│   ├── CoreStorage/
+│   ├── CoreCloudKit/
+│   ├── CoreSwiftData/
+│   └── CoreDesignSystem/
+├── MockModules/
+│   ├── MockCore/
+│   ├── MockDomain/
+│   └── MockData/
+```
+
 ## 📄 License
 
 This project is licensed under the Apache License.
