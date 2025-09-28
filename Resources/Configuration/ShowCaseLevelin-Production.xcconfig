@@ -11,3 +11,4 @@
 APP_BUNDLE_IDENTIFIER = com.levelin.dhikadityre.ShowcaseLevelin
 APP_NAME = ShowcaseLevelin
 FLAVOR = PRODUCTION
+FIREBASE_CONFIG_PLIST_NAME = GoogleService-Info-production

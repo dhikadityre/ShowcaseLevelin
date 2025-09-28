@@ -8,5 +8,7 @@
 	<string>$(APP_NAME)</string>
 	<key>FLAVOR</key>
 	<string>$(FLAVOR)</string>
+	<key>FIREBASE_CONFIG_PLIST_NAME</key>
+	<string>$(FIREBASE_CONFIG_PLIST_NAME)</string>
 </dict>
 </plist>

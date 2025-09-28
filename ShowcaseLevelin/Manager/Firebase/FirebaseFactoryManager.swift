@@ -12,8 +12,8 @@ final class FirebaseFactoryManager {
     static var shared = FirebaseFactoryManager()
     
     func initialize() {
+        let path = AppConfiguration.FIREBASE_CONFIG_PLIST_PATH
         guard
-            let path = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist"),
             let dict = NSDictionary(contentsOfFile: path) as? [String: Any],
             let googleAppID = dict["GOOGLE_APP_ID"] as? String,
             let gcmSenderID = dict["GCM_SENDER_ID"] as? String

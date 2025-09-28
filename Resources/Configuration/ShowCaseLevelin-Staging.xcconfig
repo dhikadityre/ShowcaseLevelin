@@ -11,3 +11,4 @@
 APP_BUNDLE_IDENTIFIER = com.levelin.dhikadityre.SLStaging
 APP_NAME = SL-Staging
 FLAVOR = STAGING
+FIREBASE_CONFIG_PLIST_NAME = ShowCaseLevelin-Production

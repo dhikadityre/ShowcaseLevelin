@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E64CEA5C2E276E9900D3D69C /* GoogleService-Info-production.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA572E276E9900D3D69C /* GoogleService-Info-production.plist */; };
+		E64CEA6A2E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA692E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig */; };
+		E64CEA6F2E27862A00D3D69C /* GoogleService-Info-mirorring.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA6E2E27862A00D3D69C /* GoogleService-Info-mirorring.plist */; };
+		E64CEA9A2E27A54300D3D69C /* GoogleService-Info-testing.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA992E27A54300D3D69C /* GoogleService-Info-testing.plist */; };
+		E64CEA9C2E27A65100D3D69C /* GoogleService-Info-dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA9B2E27A65100D3D69C /* GoogleService-Info-dev.plist */; };
+		E64CEA9E2E27A73500D3D69C /* GoogleService-Info-mock.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64CEA9D2E27A73500D3D69C /* GoogleService-Info-mock.plist */; };
 		E66317322E23BB5E00A6642C /* SLCoreEnvironment in Frameworks */ = {isa = PBXBuildFile; productRef = E66317312E23BB5E00A6642C /* SLCoreEnvironment */; };
 		E663173A2E23CCAA00A6642C /* ShowCaseLevelin-Mock.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E66317392E23CCAA00A6642C /* ShowCaseLevelin-Mock.xcconfig */; };
 		E663173C2E23CD5100A6642C /* ShowCaseLevelin-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E663173B2E23CD5100A6642C /* ShowCaseLevelin-Dev.xcconfig */; };
@@ -15,10 +21,22 @@
 		E66317442E23CDB600A6642C /* ShowCaseLevelin-Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E66317432E23CDB600A6642C /* ShowCaseLevelin-Production.xcconfig */; };
 		E66317522E23F9DF00A6642C /* CoreSecurity in Frameworks */ = {isa = PBXBuildFile; productRef = E66317512E23F9DF00A6642C /* CoreSecurity */; };
 		E68D3BAA2E24214F00903A3B /* CoreFirebase in Frameworks */ = {isa = PBXBuildFile; productRef = E68D3BA92E24214F00903A3B /* CoreFirebase */; };
+		E695C8402E49E8FD005DAF56 /* AlgoreadMePackageData in Frameworks */ = {isa = PBXBuildFile; productRef = E695C83F2E49E8FD005DAF56 /* AlgoreadMePackageData */; };
+		E6BE671B2E39FE43002D55CA /* CoreNetworkNative in Frameworks */ = {isa = PBXBuildFile; productRef = E6BE671A2E39FE43002D55CA /* CoreNetworkNative */; };
+		E6BE673A2E3AFEDD002D55CA /* GeneralAboutPageModule in Frameworks */ = {isa = PBXBuildFile; productRef = E6BE67392E3AFEDD002D55CA /* GeneralAboutPageModule */; };
+		E6C943F42E28DE0400C978A9 /* CoreFirebaseInterfaces in Frameworks */ = {isa = PBXBuildFile; productRef = E6C943F32E28DE0400C978A9 /* CoreFirebaseInterfaces */; };
 		E6D995702E12F1CB00BB4EDF /* SLHomePageModule in Frameworks */ = {isa = PBXBuildFile; productRef = E6D9956F2E12F1CB00BB4EDF /* SLHomePageModule */; };
+		E6EFD2BE2E4341D8005DE6F2 /* AlgoreadMeException in Frameworks */ = {isa = PBXBuildFile; productRef = E6EFD2BD2E4341D8005DE6F2 /* AlgoreadMeException */; };
+		E6EFD2C12E4341E9005DE6F2 /* AlgoreadMeCoreLogger in Frameworks */ = {isa = PBXBuildFile; productRef = E6EFD2C02E4341E9005DE6F2 /* AlgoreadMeCoreLogger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E64CEA572E276E9900D3D69C /* GoogleService-Info-production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-production.plist"; sourceTree = "<group>"; };
+		E64CEA692E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ShowCaseLevelin-Mirorring.xcconfig"; sourceTree = "<group>"; };
+		E64CEA6E2E27862A00D3D69C /* GoogleService-Info-mirorring.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-mirorring.plist"; sourceTree = "<group>"; };
+		E64CEA992E27A54300D3D69C /* GoogleService-Info-testing.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-testing.plist"; sourceTree = "<group>"; };
+		E64CEA9B2E27A65100D3D69C /* GoogleService-Info-dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-dev.plist"; sourceTree = "<group>"; };
+		E64CEA9D2E27A73500D3D69C /* GoogleService-Info-mock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-mock.plist"; sourceTree = "<group>"; };
 		E66317392E23CCAA00A6642C /* ShowCaseLevelin-Mock.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ShowCaseLevelin-Mock.xcconfig"; sourceTree = "<group>"; };
 		E663173B2E23CD5100A6642C /* ShowCaseLevelin-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ShowCaseLevelin-Dev.xcconfig"; sourceTree = "<group>"; };
 		E663173D2E23CD6800A6642C /* ShowCaseLevelin-Testing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ShowCaseLevelin-Testing.xcconfig"; sourceTree = "<group>"; };
@@ -28,7 +46,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E663174B2E23D13F00A6642C /* Exceptions for "ShowcaseLevelin" folder in "ShowcaseLevelin" target */ = {
+		E64CEA982E279D5800D3D69C /* Exceptions for "ShowcaseLevelin" folder in "ShowcaseLevelin" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -41,7 +59,7 @@
 		E6802BE42E12E14500A177B5 /* ShowcaseLevelin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E663174B2E23D13F00A6642C /* Exceptions for "ShowcaseLevelin" folder in "ShowcaseLevelin" target */,
+				E64CEA982E279D5800D3D69C /* Exceptions for "ShowcaseLevelin" folder in "ShowcaseLevelin" target */,
 			);
 			path = ShowcaseLevelin;
 			sourceTree = "<group>";
@@ -53,24 +71,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C943F42E28DE0400C978A9 /* CoreFirebaseInterfaces in Frameworks */,
 				E66317322E23BB5E00A6642C /* SLCoreEnvironment in Frameworks */,
+				E695C8402E49E8FD005DAF56 /* AlgoreadMePackageData in Frameworks */,
 				E66317522E23F9DF00A6642C /* CoreSecurity in Frameworks */,
+				E6EFD2BE2E4341D8005DE6F2 /* AlgoreadMeException in Frameworks */,
+				E6BE671B2E39FE43002D55CA /* CoreNetworkNative in Frameworks */,
+				E6BE673A2E3AFEDD002D55CA /* GeneralAboutPageModule in Frameworks */,
 				E68D3BAA2E24214F00903A3B /* CoreFirebase in Frameworks */,
 				E6D995702E12F1CB00BB4EDF /* SLHomePageModule in Frameworks */,
+				E6EFD2C12E4341E9005DE6F2 /* AlgoreadMeCoreLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E64CEA6D2E27852500D3D69C /* FirebaseConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				E64CEA6E2E27862A00D3D69C /* GoogleService-Info-mirorring.plist */,
+				E64CEA572E276E9900D3D69C /* GoogleService-Info-production.plist */,
+				E64CEA992E27A54300D3D69C /* GoogleService-Info-testing.plist */,
+				E64CEA9B2E27A65100D3D69C /* GoogleService-Info-dev.plist */,
+				E64CEA9D2E27A73500D3D69C /* GoogleService-Info-mock.plist */,
+			);
+			path = FirebaseConfiguration;
+			sourceTree = "<group>";
+		};
+		E64CEA7B2E278BB400D3D69C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E64CEA6D2E27852500D3D69C /* FirebaseConfiguration */,
+				E66317452E23D00200A6642C /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		E66317452E23D00200A6642C /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				E66317432E23CDB600A6642C /* ShowCaseLevelin-Production.xcconfig */,
-				E663173F2E23CD8B00A6642C /* ShowCaseLevelin-Staging.xcconfig */,
 				E66317392E23CCAA00A6642C /* ShowCaseLevelin-Mock.xcconfig */,
 				E663173B2E23CD5100A6642C /* ShowCaseLevelin-Dev.xcconfig */,
 				E663173D2E23CD6800A6642C /* ShowCaseLevelin-Testing.xcconfig */,
+				E663173F2E23CD8B00A6642C /* ShowCaseLevelin-Staging.xcconfig */,
+				E64CEA692E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig */,
+				E66317432E23CDB600A6642C /* ShowCaseLevelin-Production.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -78,7 +124,7 @@
 		E6802BD92E12E14500A177B5 = {
 			isa = PBXGroup;
 			children = (
-				E66317452E23D00200A6642C /* Configuration */,
+				E64CEA7B2E278BB400D3D69C /* Resources */,
 				E6802BE42E12E14500A177B5 /* ShowcaseLevelin */,
 				E6802C022E12E7FD00A177B5 /* Frameworks */,
 				E6802BE32E12E14500A177B5 /* Products */,
@@ -124,6 +170,12 @@
 				E66317312E23BB5E00A6642C /* SLCoreEnvironment */,
 				E66317512E23F9DF00A6642C /* CoreSecurity */,
 				E68D3BA92E24214F00903A3B /* CoreFirebase */,
+				E6C943F32E28DE0400C978A9 /* CoreFirebaseInterfaces */,
+				E6BE671A2E39FE43002D55CA /* CoreNetworkNative */,
+				E6BE67392E3AFEDD002D55CA /* GeneralAboutPageModule */,
+				E6EFD2BD2E4341D8005DE6F2 /* AlgoreadMeException */,
+				E6EFD2C02E4341E9005DE6F2 /* AlgoreadMeCoreLogger */,
+				E695C83F2E49E8FD005DAF56 /* AlgoreadMePackageData */,
 			);
 			productName = ShowcaseLevelin;
 			productReference = E6802BE22E12E14500A177B5 /* ShowcaseLevelin.app */;
@@ -158,6 +210,12 @@
 				E66317302E23BB5E00A6642C /* XCLocalSwiftPackageReference "../../Module/SLCoreEnvironment" */,
 				E66317502E23F9DF00A6642C /* XCLocalSwiftPackageReference "../../Module/CoreSecurity" */,
 				E68D3BA82E24214F00903A3B /* XCLocalSwiftPackageReference "../../Module/CoreFirebase" */,
+				E6C943F22E28DE0400C978A9 /* XCLocalSwiftPackageReference "../../Module/CoreFirebaseInterfaces" */,
+				E6BE67192E39FE43002D55CA /* XCLocalSwiftPackageReference "../../Module/CoreNetworkNative" */,
+				E6BE67382E3AFEDD002D55CA /* XCLocalSwiftPackageReference "../../Module/GeneralAboutPageModule" */,
+				E6EFD2BC2E4341D8005DE6F2 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMeException" */,
+				E6EFD2BF2E4341E9005DE6F2 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMeCoreLogger" */,
+				E695C83E2E49E8FD005DAF56 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMePackageData" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E6802BE32E12E14500A177B5 /* Products */;
@@ -174,11 +232,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64CEA9E2E27A73500D3D69C /* GoogleService-Info-mock.plist in Resources */,
+				E64CEA6F2E27862A00D3D69C /* GoogleService-Info-mirorring.plist in Resources */,
 				E66317402E23CD8B00A6642C /* ShowCaseLevelin-Staging.xcconfig in Resources */,
 				E663173A2E23CCAA00A6642C /* ShowCaseLevelin-Mock.xcconfig in Resources */,
 				E66317442E23CDB600A6642C /* ShowCaseLevelin-Production.xcconfig in Resources */,
 				E663173C2E23CD5100A6642C /* ShowCaseLevelin-Dev.xcconfig in Resources */,
+				E64CEA9C2E27A65100D3D69C /* GoogleService-Info-dev.plist in Resources */,
+				E64CEA5C2E276E9900D3D69C /* GoogleService-Info-production.plist in Resources */,
+				E64CEA6A2E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig in Resources */,
 				E663173E2E23CD6800A6642C /* ShowCaseLevelin-Testing.xcconfig in Resources */,
+				E64CEA9A2E27A54300D3D69C /* GoogleService-Info-testing.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +259,98 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E64CEA6B2E2784DB00D3D69C /* Mirroring */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64CEA692E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(APP_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Mirroring;
+		};
+		E64CEA6C2E2784DB00D3D69C /* Mirroring */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64CEA692E27843200D3D69C /* ShowCaseLevelin-Mirorring.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShowcaseLevelin/Preview Content\"";
+				DEVELOPMENT_TEAM = W6NYRRRG5Q;
+				ENABLE_PREVIEWS = YES;
+				FLAVOR = "$(FLAVOR)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShowcaseLevelin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Mirroring;
+		};
 		E66317332E23C97900A6642C /* Testing */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E663173D2E23CD6800A6642C /* ShowCaseLevelin-Testing.xcconfig */;
@@ -694,6 +850,7 @@
 				E66317332E23C97900A6642C /* Testing */,
 				E66317372E23CBC600A6642C /* Staging */,
 				E6802BEF2E12E14700A177B5 /* Production */,
+				E64CEA6B2E2784DB00D3D69C /* Mirroring */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Production;
@@ -706,6 +863,7 @@
 				E66317342E23C97900A6642C /* Testing */,
 				E66317382E23CBC600A6642C /* Staging */,
 				E6802BF22E12E14700A177B5 /* Production */,
+				E64CEA6C2E2784DB00D3D69C /* Mirroring */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Production;
@@ -725,9 +883,33 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Module/CoreFirebase;
 		};
+		E695C83E2E49E8FD005DAF56 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMePackageData" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/AlgoreadMePackageData;
+		};
+		E6BE67192E39FE43002D55CA /* XCLocalSwiftPackageReference "../../Module/CoreNetworkNative" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/CoreNetworkNative;
+		};
+		E6BE67382E3AFEDD002D55CA /* XCLocalSwiftPackageReference "../../Module/GeneralAboutPageModule" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/GeneralAboutPageModule;
+		};
+		E6C943F22E28DE0400C978A9 /* XCLocalSwiftPackageReference "../../Module/CoreFirebaseInterfaces" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/CoreFirebaseInterfaces;
+		};
 		E6D9956E2E12F1CB00BB4EDF /* XCLocalSwiftPackageReference "../SLHomePageModule" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../SLHomePageModule;
+		};
+		E6EFD2BC2E4341D8005DE6F2 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMeException" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/AlgoreadMeException;
+		};
+		E6EFD2BF2E4341E9005DE6F2 /* XCLocalSwiftPackageReference "../../Module/AlgoreadMeCoreLogger" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Module/AlgoreadMeCoreLogger;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -744,9 +926,33 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = CoreFirebase;
 		};
+		E695C83F2E49E8FD005DAF56 /* AlgoreadMePackageData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlgoreadMePackageData;
+		};
+		E6BE671A2E39FE43002D55CA /* CoreNetworkNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreNetworkNative;
+		};
+		E6BE67392E3AFEDD002D55CA /* GeneralAboutPageModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GeneralAboutPageModule;
+		};
+		E6C943F32E28DE0400C978A9 /* CoreFirebaseInterfaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreFirebaseInterfaces;
+		};
 		E6D9956F2E12F1CB00BB4EDF /* SLHomePageModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SLHomePageModule;
+		};
+		E6EFD2BD2E4341D8005DE6F2 /* AlgoreadMeException */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlgoreadMeException;
+		};
+		E6EFD2C02E4341E9005DE6F2 /* AlgoreadMeCoreLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AlgoreadMeCoreLogger;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

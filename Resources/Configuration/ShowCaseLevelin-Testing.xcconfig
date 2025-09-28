@@ -11,3 +11,4 @@
 APP_BUNDLE_IDENTIFIER = com.levelin.dhikadityre.SLTesting
 APP_NAME = SL-Testing
 FLAVOR = TESTING
+FIREBASE_CONFIG_PLIST_NAME = GoogleService-Info-testing

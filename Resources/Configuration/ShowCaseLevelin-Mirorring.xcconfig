@@ -1,0 +1,14 @@
+//
+//  ShowCaseLevelin-Mirroring.xcconfig
+//  ShowcaseLevelin
+//
+//  Created by @algoreadme on 16/07/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_BUNDLE_IDENTIFIER = com.levelin.dhikadityre.SLMirroring
+APP_NAME = SL-Mirroring
+FLAVOR = MIRORRING
+FIREBASE_CONFIG_PLIST_NAME = GoogleService-Info-mirorring
