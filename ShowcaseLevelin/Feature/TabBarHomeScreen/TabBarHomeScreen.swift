@@ -6,22 +6,21 @@
 //
 
 import SwiftUI
-import SLHomePageModule
-import CoreNetworkNative
 import GeneralAboutPageModule
 
 struct TabBarHomeScreen: View {
-    @State private var isReady = false
+    @StateObject private var router = AppRouter()
     @State private var selectedtab: Tabidentifier = .home
     
-    var body: some View { render() }
-    
-    private func renderHomeView() -> some View {
-        return SLHomeFactory.makeHomeView(
-            environment: EnvironmentManager.shared.current,
-            firebaseAnalytics: FirebaseAnalyticsManager.shared.analytics,
-            visibilityLogger: ClientAppLoggerVisibility.shared
-        )
+    var body: some View {
+        NavigationStack(path: $router.navigationPath) {
+            render()
+                .navigationDestination(for: AppRoute.self) { route in
+                    route.buildView()
+                        .withNavigationDebugging()
+                }
+        }
+        .environmentObject(router)
     }
     
     private func renderTabHomeView() -> some View {
@@ -33,43 +32,19 @@ struct TabBarHomeScreen: View {
     }
     
     private func renderTabDetailInfoView() -> some View {
-        DetailInfoScreen(
-            viewModel: DetailInfoScreenViewModel(
-                useCase: DetailInfoRepositoryImpl(
-                    apiClient: DefaultAPIClient(
-                        baseURL: URL(string: EnvironmentManager.shared.current.baseURL)!,
-                        visibilityLogger: ClientAppLoggerVisibility.shared
-                    )
-                )
-            )
-        )
-        .tabItem {
-            Label(Tabidentifier.detailInfo.rawValue, systemImage: Tabidentifier.detailInfo.toIconSystemName())
-        }
-        .tag(Tabidentifier.detailInfo)
+        renderDetailInfoView()
+            .tabItem {
+                Label(Tabidentifier.detailInfo.rawValue, systemImage: Tabidentifier.detailInfo.toIconSystemName())
+            }
+            .tag(Tabidentifier.detailInfo)
     }
     
     private func renderTabAboutView() -> some View {
-        GeneralAboutView(
-            viewModel: GeneralAboutViewModel(
-                aboutAppsModels: .init(
-                    productImage: nil,
-                    productName: "ShowCaseLevelin",
-                    compatibility: "iOS 14",
-                    technology: "Swift 6, Combine, SwiftUI, Modular",
-                    version: "1.0.0"),
-                aboutDeveloperModel: .init(
-                    name: "Dhika Aditya",
-                    github: "https.github.com/DhikaAditya",
-                    linkedIn: "https://www.linkedin.com/in/dhika-aditya/"
-                ),
-                baseUrl: EnvironmentManager.shared.current.baseURL
-            )
-        )
-        .tabItem {
-            Label(Tabidentifier.about.rawValue, systemImage: Tabidentifier.about.toIconSystemName())
-        }
-        .tag(Tabidentifier.about)
+        renderAboutView()
+            .tabItem {
+                Label(Tabidentifier.about.rawValue, systemImage: Tabidentifier.about.toIconSystemName())
+            }
+            .tag(Tabidentifier.about)
     }
     
     private func render() -> some View {
@@ -77,6 +52,23 @@ struct TabBarHomeScreen: View {
             renderTabHomeView()
             renderTabDetailInfoView()
             renderTabAboutView()
-        }.accentColor(Color.primary)
+        }
+        .accentColor(Color.primary)
+    }
+}
+
+extension TabBarHomeScreen {
+    private func renderHomeView() -> some View {
+        return LazyAppRoute.tabBarHome(
+            .home(router: router)
+        ).buildView()
+    }
+    
+    private func renderDetailInfoView() -> some View {
+        return LazyAppRoute.tabBarHome(.detailInfo).buildView()
+    }
+    
+    private func renderAboutView() -> some View {
+        LazyAppRoute.tabBarHome(.about).buildView()
     }
 }
